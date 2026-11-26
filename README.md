@@ -17,3 +17,11 @@ Python 3, numpy, pandas, scipy, scikit-learn, xgboost, imbalanced-learn, statsmo
 
 ## Status
 Accompanies a manuscript under review. A versioned archive with a DOI will be deposited after acceptance.
+
+## File map (code_sec/ and results/hasil_final/)
+
+- `code_sec/cq*_run.py`, `cq_lib.py`: threshold-rule and remedy experiments. The temporal sets (credit card, IEEE-CIS, UNSW-NB15 for development; Elliptic, CIC-IDS2017, BAF held out) are handled by these scripts and `mk*.py`, driven by `auto_driver*.sh` and the `*.sbatch` job files.
+- `code_sec/analyze_*.py`, `final_tables.py`: analysis and final tables.
+- `results/hasil_final/final_tables.csv`, `final_wide.txt`: per-condition results behind the main tables.
+- `results/hasil_final/ast_*`, `audit_*`, `tilt_*`, `conf3_dev.txt`, `cq_out.txt`: outputs of each pre-registered remedy (see `spec/PRESPEC_*.md`); `VERDICT_AUDIT.txt` is the audit verdict.
+- Raw datasets and cluster logs are not included; see `data_info/`.
