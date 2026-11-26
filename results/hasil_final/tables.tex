@@ -1,0 +1,50 @@
+\begin{table}[t]
+\caption{Mean absolute calibration error $|\log_2(\mathrm{FPR}/\alpha)|$ at 40\% poison, averaged over the two budgets and three noise models (lower is better).}\label{tab:acal}
+\centering\small
+\begin{tabular}{lrrrrrrrr}
+\toprule
+Dataset & naive & cq & conf & cl & trust & aud\_0.01 & ast\_0.005 & oracle \\
+\midrule
+Credit card & 2.01 & 1.71 & 2.03 & 1.43 & 1.39 & 1.84 & 1.47 & 1.14 \\
+IEEE-CIS & 3.58 & 1.98 & 3.62 & 2.94 & 1.33 & 1.88 & 1.79 & 1.28 \\
+UNSW-NB15 & 4.05 & 3.72 & 4.05 & 2.18 & 2.14 & 2.48 & 3.90 & 2.22 \\
+Elliptic & 4.31 & 3.60 & 4.30 & 3.43 & 3.21 & 2.61 & 3.37 & 3.08 \\
+CIC-IDS2017 & 4.14 & 4.11 & 4.14 & 3.98 & 2.15 & 3.40 & 4.08 & 1.68 \\
+BAF & 1.94 & 1.25 & 1.99 & 2.88 & 1.48 & 1.42 & 1.76 & 1.63 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[t]
+\caption{Share of units with realised FPR $\le1.5\alpha$ at 40\% poison, averaged over budgets and noise models (higher is better).}\label{tab:share}
+\centering\small
+\begin{tabular}{lrrrrrrr}
+\toprule
+Dataset & naive & cq & conf & cl & trust & aud\_0.01 & oracle \\
+\midrule
+Credit card & 0.87 & 0.85 & 0.87 & 0.74 & 0.62 & 0.51 & 0.73 \\
+IEEE-CIS & 0.95 & 0.79 & 0.95 & 0.15 & 0.62 & 0.34 & 0.86 \\
+UNSW-NB15 & 1.00 & 0.97 & 1.00 & 0.69 & 0.62 & 0.19 & 0.88 \\
+Elliptic & 0.92 & 0.87 & 0.92 & 0.75 & 0.83 & 0.65 & 0.83 \\
+CIC-IDS2017 & 0.93 & 0.92 & 0.93 & 0.91 & 0.55 & 0.26 & 0.56 \\
+BAF & 0.99 & 0.63 & 0.99 & 0.15 & 0.88 & 0.73 & 0.96 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[t]
+\caption{Test recall at 40\% poison, averaged over budgets and noise models. ``ideal'' uses test negatives and is unattainable.}\label{tab:recall}
+\centering\small
+\begin{tabular}{lrrrrrr}
+\toprule
+Dataset & naive & cq & trust & aud\_0.01 & oracle & ideal \\
+\midrule
+Credit card & 0.596 & 0.653 & 0.772 & 0.780 & 0.762 & 0.772 \\
+IEEE-CIS & 0.030 & 0.123 & 0.162 & 0.243 & 0.131 & 0.155 \\
+UNSW-NB15 & 0.028 & 0.044 & 0.329 & 0.667 & 0.206 & 0.281 \\
+Elliptic & 0.042 & 0.113 & 0.155 & 0.194 & 0.145 & 0.213 \\
+CIC-IDS2017 & 0.036 & 0.071 & 0.534 & 0.766 & 0.672 & 0.667 \\
+BAF & 0.056 & 0.121 & 0.073 & 0.091 & 0.066 & 0.108 \\
+\bottomrule
+\end{tabular}
+\end{table}
