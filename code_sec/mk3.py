@@ -1,4 +1,4 @@
-s=open('cq2_run.py').read()
+s=open('code_sec/cq2_run.py').read()
 H='''
 def delay2_flip(tr, y, lv, seed):
     """Age-based stochastic label delay at the snapshot (end of training window): a positive at relative age a in [0,1] (0 = newest) is still unlabelled
@@ -56,4 +56,4 @@ assert o in s; s=s.replace(o,n,1)
 o="pi_hat=pi_hat, pi_true"
 n="pi_hat=pi_hat, pi_tpc=pi_tpc, pi_tpcf=pi_tpcf, guard_ok=guard_ok, pi_true"
 assert o in s; s=s.replace(o,n,1)
-open('cq3_run.py','w').write(s)
+open('code_sec/cq3_run.py','w').write(s)

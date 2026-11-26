@@ -1,0 +1,83 @@
+finished Thu Nov 26 06:32:38 WIB 2026; missing outputs after retries: 0
+--- DEV ---
+== HA1 per dataset x noise: passing cells / cells (aud_f f>=1%) ==
+creditcard delay     0     12
+ieee       delay    10     12
+unsw       delay     7     12
+creditcard  delay fpr01     0.2 aud_0.01 24    -0.4247 0.2304  1.0000 False
+creditcard  delay fpr01     0.2 aud_0.02 24    -0.9378 0.0119  0.6524 False
+creditcard  delay fpr01     0.2 aud_0.05 24    -0.6775 0.0242  1.0000 False
+creditcard  delay fpr01     0.2   oracle 24    -1.4042 0.0002  0.0216  True
+creditcard  delay fpr01     0.2    trust 24    -1.4556 0.0001  0.0064  True
+creditcard  delay fpr01     0.4 aud_0.01 24    -0.7367 0.0425  1.0000 False
+creditcard  delay fpr01     0.4 aud_0.02 24    -1.0377 0.0065  0.4154 False
+creditcard  delay fpr01     0.4 aud_0.05 24    -1.0054 0.0099  0.5615 False
+creditcard  delay fpr01     0.4   oracle 24    -1.4384 0.0003  0.0287  True
+creditcard  delay fpr01     0.4    trust 24    -0.8140 0.0225  1.0000 False
+creditcard  delay  fpr1     0.2 aud_0.01 24     0.2774 0.2076  1.0000 False
+creditcard  delay  fpr1     0.2 aud_0.02 24     0.0313 0.7151  1.0000 False
+creditcard  delay  fpr1     0.2 aud_0.05 24     0.0994 0.4549  1.0000 False
+creditcard  delay  fpr1     0.2   oracle 24    -0.3198 0.0004  0.0373  True
+creditcard  delay  fpr1     0.2    trust 24    -0.1502 0.2172  1.0000 False
+creditcard  delay  fpr1     0.4 aud_0.01 24     0.2323 0.3615  1.0000 False
+creditcard  delay  fpr1     0.4 aud_0.02 24    -0.0825 0.5663  1.0000 False
+creditcard  delay  fpr1     0.4 aud_0.05 24    -0.0478 0.5202  1.0000 False
+creditcard  delay  fpr1     0.4   oracle 24    -0.2219 0.0008  0.0628 False
+creditcard  delay  fpr1     0.4    trust 24    -0.2239 0.0537  1.0000 False
+creditcard delay2 fpr01     0.2 aud_0.01 24    -0.5583 0.1443  1.0000 False
+creditcard delay2 fpr01     0.2 aud_0.02 24    -1.1960 0.0074  0.4464 False
+creditcard delay2 fpr01     0.2 aud_0.05 24    -1.1839 0.0067  0.4158 False
+creditcard delay2 fpr01     0.2   oracle 24    -1.4617 0.0002  0.0183  True
+creditcard delay2 fpr01     0.2    trust 24    -1.1775 0.0129  0.6850 False
+creditcard delay2 fpr01     0.4 aud_0.01 24    -0.5933 0.0586  1.0000 False
+creditcard delay2 fpr01     0.4 aud_0.02 24    -1.1331 0.0017  0.1216 False
+creditcard delay2 fpr01     0.4 aud_0.05 24    -1.6725 0.0001  0.0138  True
+creditcard delay2 fpr01     0.4   oracle 24    -1.6798 0.0000  0.0054  True
+creditcard delay2 fpr01     0.4    trust 24    -1.6679 0.0002  0.0198  True
+creditcard delay2  fpr1     0.2 aud_0.01 24    -0.2360 0.2914  1.0000 False
+creditcard delay2  fpr1     0.2 aud_0.02 24    -0.0396 0.8552  1.0000 False
+creditcard delay2  fpr1     0.2 aud_0.05 24    -0.0792 0.4264  1.0000 False
+creditcard delay2  fpr1     0.2   oracle 24    -0.3111 0.0006  0.0492  True
+creditcard delay2  fpr1     0.2    trust 24     0.1933 0.4549  1.0000 False
+creditcard delay2  fpr1     0.4 aud_0.01 24    -0.2982 0.1780  1.0000 False
+--- CONFIRMATION ---
+== HA1 per dataset x noise: passing cells / cells (aud_f f>=1%) ==
+cic2017  delay     6     12
+elliptic delay     0     12
+elliptic  delay fpr01     0.2 aud_0.01 24    -0.6372 0.0186  0.7794 False
+elliptic  delay fpr01     0.2 aud_0.02 24    -0.5174 0.0408  1.0000 False
+elliptic  delay fpr01     0.2 aud_0.05 24    -0.3722 0.0684  1.0000 False
+elliptic  delay fpr01     0.2   oracle 24     0.0475 0.1797  1.0000 False
+elliptic  delay fpr01     0.2    trust 24    -0.0137 0.6803  1.0000 False
+elliptic  delay fpr01     0.4 aud_0.01 24    -0.6834 0.0186  0.7794 False
+elliptic  delay fpr01     0.4 aud_0.02 24    -0.2561 0.1614  1.0000 False
+elliptic  delay fpr01     0.4 aud_0.05 24    -0.2273 0.0630  1.0000 False
+elliptic  delay fpr01     0.4   oracle 24    -0.1066 1.0000  1.0000 False
+elliptic  delay fpr01     0.4    trust 24     0.0035 0.7525  1.0000 False
+elliptic  delay  fpr1     0.2 aud_0.01 24    -0.7923 0.0033  0.1797 False
+elliptic  delay  fpr1     0.2 aud_0.02 24    -0.6751 0.0033  0.1797 False
+elliptic  delay  fpr1     0.2 aud_0.05 24    -0.6327 0.1088  1.0000 False
+elliptic  delay  fpr1     0.2   oracle 24    -0.4917 0.0348  1.0000 False
+elliptic  delay  fpr1     0.2    trust 24    -0.1608 0.5748  1.0000 False
+elliptic  delay  fpr1     0.4 aud_0.01 24    -0.7500 0.0096  0.4431 False
+elliptic  delay  fpr1     0.4 aud_0.02 24    -0.4507 0.0186  0.7794 False
+elliptic  delay  fpr1     0.4 aud_0.05 24    -0.1162 0.1139  1.0000 False
+elliptic  delay  fpr1     0.4   oracle 24    -0.0870 0.4631  1.0000 False
+elliptic  delay  fpr1     0.4    trust 24    -0.1826 0.4752  1.0000 False
+elliptic delay2 fpr01     0.2 aud_0.01 24    -1.0420 0.0009  0.0551 False
+elliptic delay2 fpr01     0.2 aud_0.02 24    -1.4369 0.0006  0.0421  True
+elliptic delay2 fpr01     0.2 aud_0.05 24    -1.0881 0.0029  0.1625 False
+elliptic delay2 fpr01     0.2   oracle 24    -0.4650 0.0499  1.0000 False
+elliptic delay2 fpr01     0.2    trust 24    -0.5772 0.0502  1.0000 False
+elliptic delay2 fpr01     0.4 aud_0.01 24    -1.2734 0.0004  0.0274  True
+elliptic delay2 fpr01     0.4 aud_0.02 24    -1.2162 0.0007  0.0468  True
+elliptic delay2 fpr01     0.4 aud_0.05 24    -1.2149 0.0012  0.0758 False
+elliptic delay2 fpr01     0.4   oracle 24    -0.3035 0.0352  1.0000 False
+elliptic delay2 fpr01     0.4    trust 24    -0.3546 0.0743  1.0000 False
+elliptic delay2  fpr1     0.2 aud_0.01 24    -3.4432 0.0001  0.0078  True
+elliptic delay2  fpr1     0.2 aud_0.02 24    -3.2403 0.0001  0.0078  True
+elliptic delay2  fpr1     0.2 aud_0.05 24    -2.8761 0.0002  0.0161  True
+elliptic delay2  fpr1     0.2   oracle 24    -2.0661 0.0012  0.0758 False
+elliptic delay2  fpr1     0.2    trust 24    -1.6039 0.0045  0.2302 False
+elliptic delay2  fpr1     0.4 aud_0.01 24    -2.9783 0.0002  0.0162  True
+elliptic delay2  fpr1     0.4 aud_0.02 24    -2.5773 0.0001  0.0078  True

@@ -1,4 +1,3 @@
-# Generates cq7_run.py from cq4_run.py: adds two-phase active-statistical-inference audit rules ast_<f>. Existing rules unchanged.
 s = open('cq4_run.py').read()
 anchor = "from sklearn.model_selection import RepeatedStratifiedKFold, train_test_split"
 assert s.count(anchor) == 1

@@ -1,0 +1,215 @@
+/virtiofs/work/bambang/imb_bench/venv/lib/python3.12/site-packages/scipy/stats/_wilcoxon.py:192: RuntimeWarning: invalid value encountered in scalar divide
+  z = (r_plus - mn) / se
+== HA1 per dataset x noise: passing cells / cells (aud_f f>=1%) ==
+                   sum  count
+dataset    noise             
+creditcard delay     0     12
+           delay2    1     12
+           random    0     12
+ieee       delay    10     12
+           delay2   10     12
+           random    8     12
+unsw       delay     7     12
+           delay2   10     12
+           random    8     12
+
+== HA1 full table ==
+   dataset  noise    op  poison     rule  n  mean_diff      p  p_holm  pass
+creditcard  delay fpr01     0.2 aud_0.01 24    -0.4247 0.2304  1.0000 False
+creditcard  delay fpr01     0.2 aud_0.02 24    -0.9378 0.0119  0.6524 False
+creditcard  delay fpr01     0.2 aud_0.05 24    -0.6775 0.0242  1.0000 False
+creditcard  delay fpr01     0.2   oracle 24    -1.4042 0.0002  0.0216  True
+creditcard  delay fpr01     0.2    trust 24    -1.4556 0.0001  0.0064  True
+creditcard  delay fpr01     0.4 aud_0.01 24    -0.7367 0.0425  1.0000 False
+creditcard  delay fpr01     0.4 aud_0.02 24    -1.0377 0.0065  0.4154 False
+creditcard  delay fpr01     0.4 aud_0.05 24    -1.0054 0.0099  0.5615 False
+creditcard  delay fpr01     0.4   oracle 24    -1.4384 0.0003  0.0287  True
+creditcard  delay fpr01     0.4    trust 24    -0.8140 0.0225  1.0000 False
+creditcard  delay  fpr1     0.2 aud_0.01 24     0.2774 0.2076  1.0000 False
+creditcard  delay  fpr1     0.2 aud_0.02 24     0.0313 0.7151  1.0000 False
+creditcard  delay  fpr1     0.2 aud_0.05 24     0.0994 0.4549  1.0000 False
+creditcard  delay  fpr1     0.2   oracle 24    -0.3198 0.0004  0.0373  True
+creditcard  delay  fpr1     0.2    trust 24    -0.1502 0.2172  1.0000 False
+creditcard  delay  fpr1     0.4 aud_0.01 24     0.2323 0.3615  1.0000 False
+creditcard  delay  fpr1     0.4 aud_0.02 24    -0.0825 0.5663  1.0000 False
+creditcard  delay  fpr1     0.4 aud_0.05 24    -0.0478 0.5202  1.0000 False
+creditcard  delay  fpr1     0.4   oracle 24    -0.2219 0.0008  0.0628 False
+creditcard  delay  fpr1     0.4    trust 24    -0.2239 0.0537  1.0000 False
+creditcard delay2 fpr01     0.2 aud_0.01 24    -0.5583 0.1443  1.0000 False
+creditcard delay2 fpr01     0.2 aud_0.02 24    -1.1960 0.0074  0.4464 False
+creditcard delay2 fpr01     0.2 aud_0.05 24    -1.1839 0.0067  0.4158 False
+creditcard delay2 fpr01     0.2   oracle 24    -1.4617 0.0002  0.0183  True
+creditcard delay2 fpr01     0.2    trust 24    -1.1775 0.0129  0.6850 False
+creditcard delay2 fpr01     0.4 aud_0.01 24    -0.5933 0.0586  1.0000 False
+creditcard delay2 fpr01     0.4 aud_0.02 24    -1.1331 0.0017  0.1216 False
+creditcard delay2 fpr01     0.4 aud_0.05 24    -1.6725 0.0001  0.0138  True
+creditcard delay2 fpr01     0.4   oracle 24    -1.6798 0.0000  0.0054  True
+creditcard delay2 fpr01     0.4    trust 24    -1.6679 0.0002  0.0198  True
+creditcard delay2  fpr1     0.2 aud_0.01 24    -0.2360 0.2914  1.0000 False
+creditcard delay2  fpr1     0.2 aud_0.02 24    -0.0396 0.8552  1.0000 False
+creditcard delay2  fpr1     0.2 aud_0.05 24    -0.0792 0.4264  1.0000 False
+creditcard delay2  fpr1     0.2   oracle 24    -0.3111 0.0006  0.0492  True
+creditcard delay2  fpr1     0.2    trust 24     0.1933 0.4549  1.0000 False
+creditcard delay2  fpr1     0.4 aud_0.01 24    -0.2982 0.1780  1.0000 False
+creditcard delay2  fpr1     0.4 aud_0.02 24    -0.4120 0.0072  0.4385 False
+creditcard delay2  fpr1     0.4 aud_0.05 24    -0.3587 0.0074  0.4464 False
+creditcard delay2  fpr1     0.4   oracle 24    -0.4842 0.0005  0.0396  True
+creditcard delay2  fpr1     0.4    trust 24    -0.2855 0.1209  1.0000 False
+creditcard random fpr01     0.2 aud_0.01 24     1.0349 0.0169  0.8778 False
+creditcard random fpr01     0.2 aud_0.02 24     0.2093 0.8077  1.0000 False
+creditcard random fpr01     0.2 aud_0.05 24     0.1695 0.4549  1.0000 False
+creditcard random fpr01     0.2   oracle 24    -0.6676 0.0516  1.0000 False
+creditcard random fpr01     0.2    trust 24    -0.1978 0.6270  1.0000 False
+creditcard random fpr01     0.4 aud_0.01 24     0.0799 0.7826  1.0000 False
+creditcard random fpr01     0.4 aud_0.02 24    -0.5604 0.2735  1.0000 False
+creditcard random fpr01     0.4 aud_0.05 24    -0.4254 0.2311  1.0000 False
+creditcard random fpr01     0.4   oracle 24    -1.2608 0.0003  0.0287  True
+creditcard random fpr01     0.4    trust 24    -0.8901 0.0345  1.0000 False
+creditcard random  fpr1     0.2 aud_0.01 24     0.3724 0.0516  1.0000 False
+creditcard random  fpr1     0.2 aud_0.02 24     0.1432 0.1698  1.0000 False
+creditcard random  fpr1     0.2 aud_0.05 24    -0.0536 0.5430  1.0000 False
+creditcard random  fpr1     0.2   oracle 24    -0.0557 0.0793  1.0000 False
+creditcard random  fpr1     0.2    trust 24     0.3232 0.0017  0.1216 False
+creditcard random  fpr1     0.4 aud_0.01 24     0.3261 0.1080  1.0000 False
+creditcard random  fpr1     0.4 aud_0.02 24     0.0991 0.6378  1.0000 False
+creditcard random  fpr1     0.4 aud_0.05 24    -0.0968 0.3155  1.0000 False
+creditcard random  fpr1     0.4   oracle 24    -0.0846 0.0680  1.0000 False
+creditcard random  fpr1     0.4    trust 24     0.1664 0.2604  1.0000 False
+      ieee  delay fpr01     0.2 aud_0.01 24    -1.2015 0.0002  0.0223  True
+      ieee  delay fpr01     0.2 aud_0.02 24    -2.1587 0.0000  0.0001  True
+      ieee  delay fpr01     0.2 aud_0.05 24    -2.1686 0.0000  0.0001  True
+      ieee  delay fpr01     0.2   oracle 24    -0.5109 0.0121  0.6524 False
+      ieee  delay fpr01     0.2    trust 24    -1.6901 0.0001  0.0069  True
+      ieee  delay fpr01     0.4 aud_0.01 24    -0.4861 0.2076  1.0000 False
+      ieee  delay fpr01     0.4 aud_0.02 24    -1.0372 0.0035  0.2313 False
+      ieee  delay fpr01     0.4 aud_0.05 24    -1.2297 0.0001  0.0079  True
+      ieee  delay fpr01     0.4   oracle 24    -1.0108 0.0002  0.0179  True
+      ieee  delay fpr01     0.4    trust 24    -1.3479 0.0002  0.0183  True
+      ieee  delay  fpr1     0.2 aud_0.01 24    -4.9493 0.0000  0.0001  True
+      ieee  delay  fpr1     0.2 aud_0.02 24    -4.4641 0.0000  0.0001  True
+      ieee  delay  fpr1     0.2 aud_0.05 24    -4.3353 0.0000  0.0001  True
+      ieee  delay  fpr1     0.2   oracle 24    -4.0893 0.0000  0.0001  True
+      ieee  delay  fpr1     0.2    trust 24    -4.2940 0.0000  0.0001  True
+      ieee  delay  fpr1     0.4 aud_0.01 24    -1.0868 0.0003  0.0287  True
+      ieee  delay  fpr1     0.4 aud_0.02 24    -1.2286 0.0006  0.0477  True
+      ieee  delay  fpr1     0.4 aud_0.05 24    -0.9671 0.0000  0.0004  True
+      ieee  delay  fpr1     0.4   oracle 24    -1.1760 0.0000  0.0001  True
+      ieee  delay  fpr1     0.4    trust 24    -1.2513 0.0002  0.0219  True
+      ieee delay2 fpr01     0.2 aud_0.01 24    -0.8710 0.0030  0.1985 False
+      ieee delay2 fpr01     0.2 aud_0.02 24    -2.2000 0.0000  0.0034  True
+      ieee delay2 fpr01     0.2 aud_0.05 24    -2.1452 0.0000  0.0001  True
+      ieee delay2 fpr01     0.2   oracle 24    -1.4649 0.0001  0.0130  True
+      ieee delay2 fpr01     0.2    trust 24    -2.0095 0.0000  0.0049  True
+      ieee delay2 fpr01     0.4 aud_0.01 24    -1.0015 0.0006  0.0513 False
+      ieee delay2 fpr01     0.4 aud_0.02 24    -1.8199 0.0000  0.0001  True
+      ieee delay2 fpr01     0.4 aud_0.05 24    -2.0860 0.0000  0.0049  True
+      ieee delay2 fpr01     0.4   oracle 24    -1.6386 0.0001  0.0061  True
+      ieee delay2 fpr01     0.4    trust 24    -2.1806 0.0000  0.0034  True
+      ieee delay2  fpr1     0.2 aud_0.01 24    -5.0472 0.0000  0.0001  True
+      ieee delay2  fpr1     0.2 aud_0.02 24    -4.6592 0.0000  0.0034  True
+      ieee delay2  fpr1     0.2 aud_0.05 24    -4.7389 0.0000  0.0001  True
+      ieee delay2  fpr1     0.2   oracle 24    -4.5630 0.0000  0.0001  True
+      ieee delay2  fpr1     0.2    trust 24    -4.6929 0.0000  0.0001  True
+      ieee delay2  fpr1     0.4 aud_0.01 24    -5.0350 0.0000  0.0001  True
+      ieee delay2  fpr1     0.4 aud_0.02 24    -4.3127 0.0000  0.0001  True
+      ieee delay2  fpr1     0.4 aud_0.05 24    -4.3885 0.0000  0.0001  True
+      ieee delay2  fpr1     0.4   oracle 24    -4.4541 0.0000  0.0001  True
+      ieee delay2  fpr1     0.4    trust 24    -4.5884 0.0000  0.0001  True
+      ieee random fpr01     0.2 aud_0.01 24    -0.0459 0.8996  1.0000 False
+      ieee random fpr01     0.2 aud_0.02 24    -1.0556 0.0009  0.0679 False
+      ieee random fpr01     0.2 aud_0.05 24    -1.2687 0.0000  0.0058  True
+      ieee random fpr01     0.2   oracle 24    -2.2190 0.0000  0.0034  True
+      ieee random fpr01     0.2    trust 24    -1.3075 0.0000  0.0002  True
+      ieee random fpr01     0.4 aud_0.01 24     0.2388 0.1974  1.0000 False
+      ieee random fpr01     0.4 aud_0.02 24    -0.4974 0.0249  1.0000 False
+      ieee random fpr01     0.4 aud_0.05 24    -1.0444 0.0000  0.0032  True
+      ieee random fpr01     0.4   oracle 24    -2.0500 0.0001  0.0069  True
+      ieee random fpr01     0.4    trust 24    -0.9291 0.0008  0.0624 False
+      ieee random  fpr1     0.2 aud_0.01 24    -2.3831 0.0000  0.0001  True
+      ieee random  fpr1     0.2 aud_0.02 24    -2.6750 0.0000  0.0001  True
+      ieee random  fpr1     0.2 aud_0.05 24    -2.9890 0.0000  0.0001  True
+      ieee random  fpr1     0.2   oracle 24    -3.0521 0.0000  0.0001  True
+      ieee random  fpr1     0.2    trust 24    -2.7267 0.0000  0.0001  True
+      ieee random  fpr1     0.4 aud_0.01 24    -2.8370 0.0000  0.0001  True
+      ieee random  fpr1     0.4 aud_0.02 24    -3.1507 0.0000  0.0001  True
+      ieee random  fpr1     0.4 aud_0.05 24    -3.2690 0.0000  0.0001  True
+      ieee random  fpr1     0.4   oracle 24    -3.4955 0.0000  0.0001  True
+      ieee random  fpr1     0.4    trust 24    -3.2111 0.0000  0.0001  True
+      unsw  delay fpr01     0.2 aud_0.01 24    -0.4336 0.2860  1.0000 False
+      unsw  delay fpr01     0.2 aud_0.02 24    -1.5733 0.0004  0.0372  True
+      unsw  delay fpr01     0.2 aud_0.05 24    -0.2494 0.0277  1.0000 False
+      unsw  delay fpr01     0.2   oracle 24     0.0000    NaN  1.0000 False
+      unsw  delay fpr01     0.2    trust 24    -0.3133 0.0422  1.0000 False
+      unsw  delay fpr01     0.4 aud_0.01 24     0.9717 0.0065  0.4154 False
+      unsw  delay fpr01     0.4 aud_0.02 24    -0.9493 0.0017  0.1216 False
+      unsw  delay fpr01     0.4 aud_0.05 24    -0.9832 0.0051  0.3290 False
+      unsw  delay fpr01     0.4   oracle 24    -0.4775 0.0431  1.0000 False
+      unsw  delay fpr01     0.4    trust 24    -0.8387 0.0010  0.0717 False
+      unsw  delay  fpr1     0.2 aud_0.01 24    -3.9284 0.0002  0.0191  True
+      unsw  delay  fpr1     0.2 aud_0.02 24    -3.7539 0.0001  0.0138  True
+      unsw  delay  fpr1     0.2 aud_0.05 24    -2.7977 0.0001  0.0097  True
+      unsw  delay  fpr1     0.2   oracle 24    -1.2529 0.0007  0.0513 False
+      unsw  delay  fpr1     0.2    trust 24    -2.2871 0.0003  0.0269  True
+      unsw  delay  fpr1     0.4 aud_0.01 24    -2.9630 0.0000  0.0009  True
+      unsw  delay  fpr1     0.4 aud_0.02 24    -3.1758 0.0000  0.0003  True
+      unsw  delay  fpr1     0.4 aud_0.05 24    -2.3292 0.0001  0.0097  True
+      unsw  delay  fpr1     0.4   oracle 24    -2.2703 0.0001  0.0097  True
+      unsw  delay  fpr1     0.4    trust 24    -1.9080 0.0001  0.0138  True
+      unsw delay2 fpr01     0.2 aud_0.01 24    -0.6143 0.1311  1.0000 False
+      unsw delay2 fpr01     0.2 aud_0.02 24    -1.2736 0.0004  0.0368  True
+      unsw delay2 fpr01     0.2 aud_0.05 24    -1.2933 0.0004  0.0372  True
+      unsw delay2 fpr01     0.2   oracle 24    -0.0382 0.1797  1.0000 False
+      unsw delay2 fpr01     0.2    trust 24    -0.6806 0.0022  0.1508 False
+      unsw delay2 fpr01     0.4 aud_0.01 24    -0.7533 0.0333  1.0000 False
+      unsw delay2 fpr01     0.4 aud_0.02 24    -1.5498 0.0001  0.0075  True
+      unsw delay2 fpr01     0.4 aud_0.05 24    -1.7780 0.0001  0.0138  True
+      unsw delay2 fpr01     0.4   oracle 24    -0.3242 0.0116  0.6505 False
+      unsw delay2 fpr01     0.4    trust 24    -1.0342 0.0015  0.1058 False
+      unsw delay2  fpr1     0.2 aud_0.01 24    -3.5791 0.0000  0.0000  True
+      unsw delay2  fpr1     0.2 aud_0.02 24    -3.8665 0.0000  0.0002  True
+      unsw delay2  fpr1     0.2 aud_0.05 24    -3.0973 0.0000  0.0034  True
+      unsw delay2  fpr1     0.2   oracle 24    -1.9809 0.0000  0.0034  True
+      unsw delay2  fpr1     0.2    trust 24    -2.5379 0.0000  0.0049  True
+      unsw delay2  fpr1     0.4 aud_0.01 24    -3.5529 0.0000  0.0000  True
+      unsw delay2  fpr1     0.4 aud_0.02 24    -3.4413 0.0000  0.0001  True
+      unsw delay2  fpr1     0.4 aud_0.05 24    -3.1286 0.0000  0.0000  True
+      unsw delay2  fpr1     0.4   oracle 24    -2.2762 0.0000  0.0000  True
+      unsw delay2  fpr1     0.4    trust 24    -2.9473 0.0000  0.0034  True
+      unsw random fpr01     0.2 aud_0.01 24     0.3845 0.1208  1.0000 False
+      unsw random fpr01     0.2 aud_0.02 24    -0.4175 0.3305  1.0000 False
+      unsw random fpr01     0.2 aud_0.05 24    -1.6733 0.0000  0.0009  True
+      unsw random fpr01     0.2   oracle 24    -1.4525 0.0003  0.0269  True
+      unsw random fpr01     0.2    trust 24    -1.4495 0.0002  0.0183  True
+      unsw random fpr01     0.4 aud_0.01 24     0.2802 0.1780  1.0000 False
+      unsw random fpr01     0.4 aud_0.02 24    -0.8586 0.0096  0.5554 False
+      unsw random fpr01     0.4 aud_0.05 24    -1.9101 0.0001  0.0061  True
+      unsw random fpr01     0.4   oracle 24    -1.6564 0.0007  0.0513 False
+      unsw random fpr01     0.4    trust 24    -1.0687 0.0003  0.0269  True
+      unsw random  fpr1     0.2 aud_0.01 24    -3.6649 0.0000  0.0000  True
+      unsw random  fpr1     0.2 aud_0.02 24    -3.5109 0.0000  0.0001  True
+      unsw random  fpr1     0.2 aud_0.05 24    -3.8956 0.0000  0.0000  True
+      unsw random  fpr1     0.2   oracle 24    -4.2575 0.0000  0.0000  True
+      unsw random  fpr1     0.2    trust 24    -4.1096 0.0000  0.0000  True
+      unsw random  fpr1     0.4 aud_0.01 24    -3.4038 0.0000  0.0000  True
+      unsw random  fpr1     0.4 aud_0.02 24    -3.3313 0.0000  0.0001  True
+      unsw random  fpr1     0.4 aud_0.05 24    -3.4986 0.0000  0.0034  True
+      unsw random  fpr1     0.4   oracle 24    -4.0053 0.0000  0.0000  True
+      unsw random  fpr1     0.4    trust 24    -3.6470 0.0000  0.0000  True
+
+== HA2 audit-budget law: slope of log(mean acal) on log(n_a*alpha) ==
+delay cells 15 slope -0.046 CI [-0.289  0.213] in[-0.6,-0.4]: False
+delay2 cells 14 slope -0.033 CI [-0.172  0.162] in[-0.6,-0.4]: False
+random cells 14 slope -0.198 CI [-0.528  0.007] in[-0.6,-0.4]: False
+
+== HA3 share of windows with FPR > target, audnp_f ==
+var                audnp_0.002  audnp_0.005  audnp_0.01  audnp_0.02  audnp_0.05
+dataset    noise                                                               
+creditcard delay         0.653        0.576       0.410       0.306       0.250
+           delay2        0.708        0.639       0.465       0.306       0.194
+           random        0.708        0.681       0.500       0.368       0.340
+ieee       delay         0.868        0.785       0.639       0.451       0.299
+           delay2        0.903        0.840       0.694       0.438       0.368
+           random        0.924        0.882       0.792       0.611       0.514
+unsw       delay         1.000        0.771       0.618       0.326       0.201
+           delay2        1.000        0.757       0.583       0.417       0.229
+           random        1.000        0.889       0.757       0.583       0.368

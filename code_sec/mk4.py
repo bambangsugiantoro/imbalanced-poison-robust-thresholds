@@ -1,4 +1,3 @@
-# Generates cq4_run.py from cq3_run.py: adds audit-budget sweep rules aud_<f> and audnp_<f>. Existing rules unchanged.
 s = open('cq3_run.py').read()
 old = "                        thrs['ideal'] = float(np.quantile(negt, q)) if len(negt) else thrs['naive']"
 assert s.count(old) == 1
